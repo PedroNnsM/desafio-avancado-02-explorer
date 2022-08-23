@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=JetBrains+Mono:wght@100;200;300;400;600;700&display=swap');
+
+:root{
+    --bg: #2F2E41;
+    --span: #00BFA6;
+    --text: #C2C2C2;
+    --title:#FFFFFF;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: var(--bg);
+    color: var(--text);
+    width: 100vw;
+    height: 100vh;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+nav{
+    color: var(--title);
+    display: flex;
+    width: 80%;
+    margin: 60px auto 100px;
+    justify-content: space-between;
+    background-color: #C2C2C2;
+    
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 64px;
+}
+
+nav ul  a {
+    text-decoration: none;
+
+}
+main {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+
+}
+main .container h2{
+    margin-bottom: ;
+
+}
